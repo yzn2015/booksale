@@ -1,0 +1,32 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    border: 2px solid red;
+}
+
+.box{
+    width: 98%;
+    height: 95%;
+    border: 2px solid aqua;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 2px solid #ff1493;
+}
+.img{
+    width: 80px;
+    height: 100px;
+    margin: 10px;
+}

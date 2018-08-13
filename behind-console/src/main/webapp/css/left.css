@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+body{
+    background-color: #d3d3d3;
+}
+ul{
+    list-style: none;
+}
+.list{
+    position: absolute;
+}
+.jpg{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.list a{
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+.list{
+    background-color: #888888;
+}
+.list1{
+    display: none;
+    background-color: #bbbbbb;
+}
+.li:hover .list1{
+    display: block;
+}
+.list1 a:hover{
+    background-color: #d8d8dd;
+    font-weight: bold;
+    font-size: 15px;
+}
